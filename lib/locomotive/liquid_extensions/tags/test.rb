@@ -4,8 +4,6 @@ module Locomotive
 
       class Test < ::Liquid::Tag
 
-	tag_name :test
-
 	def display
 	'Hello Loco'
 	end
