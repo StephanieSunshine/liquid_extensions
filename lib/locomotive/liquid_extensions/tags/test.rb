@@ -2,7 +2,7 @@ module Locomotive
   module LiquidExtensions
     module Tags
 
-      class Test < ::Liquid::Test
+      class Test < ::Liquid::Tag
 
 	def render
 	'Hello Loco'
