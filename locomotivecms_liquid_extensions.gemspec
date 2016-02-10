@@ -7,25 +7,20 @@ $:.unshift lib unless $:.include?(lib)
 require 'locomotive/liquid_extensions/version'
 
 Gem::Specification.new do |s|
-  s.name        = 'locomotivecms_liquid_extensions'
+  s.name        = 'locomotivecms_liquid_month_extensions'
   s.version     = Locomotive::LiquidExtensions::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ['Didier Lafforgue']
-  s.email       = ['did@locomotivecms.com']
-  s.homepage    = 'http://www.locomotivecms.com'
-  s.summary     = 'LocomotiveCMS Liquid Extensions'
-  s.description = 'Extra liquid tags, filters for LocomotiveCMS'
+  s.authors     = ['Stephanie Sunshine']
+  s.email       = ['stephanie@isula.net']
+  s.homepage    = 'https://github.com/StephanieSunshine/locomotivecms_liquid_month_extensions'
+  s.summary     = 'LocomotiveCMS Liquid Month Extensions'
+  s.description = 'Adds minus_month and plus_month tags. Based on locomotivecms/liquid_extensions'
 
-  s.required_rubygems_version = '>= 1.3.6'
-  s.rubyforge_project         = 'locomotivecms_liquid_extensions'
+  #s.required_rubygems_version = '>= 1.3.6'
+  #s.rubyforge_project         = 'locomotivecms_liquid_extensions'
 
-  s.add_development_dependency 'rspec'
-  s.add_development_dependency 'mocha'
-  s.add_development_dependency 'rake'
+  #s.add_development_dependency 'rake'
   s.add_development_dependency 'activesupport', '~> 3'
-
-  s.add_dependency 'pony',                '~> 1.5'
-  s.add_dependency 'locomotivecms-solid', '~> 0.2.2.1'
 
   s.require_path = 'lib'
 
